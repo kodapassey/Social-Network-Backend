@@ -20,7 +20,14 @@ const ReactionSchema = new Schema(
             default: Date.now,
             // need to write function to insert here that formats timestamp
         }
+    },
+    {
+        toJSON: {
+            virtuals: true,
+            getters: true
+        },
+        id: false
     }
-)
+);
 
 module.exports = ReactionSchema;
