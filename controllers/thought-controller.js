@@ -109,7 +109,6 @@ const thoughtController = {
                     res.status(404).json({ message: 'No thought found with this id!' });
                     return;
                 }
-                console.log(dbUserData);
                 res.json(dbUserData);
             })
             .catch(err => res.json(err))
