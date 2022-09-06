@@ -2,6 +2,13 @@
 
   ## Description
   This social network backend application is the backend for a social media app. Users can create accounts, make friends, remove friends, as well as add their own thoughts about things and give reactions to others thoughts.
+  
+  ## Walkthrough Video:
+  
+
+https://user-images.githubusercontent.com/101370470/188726975-4ed5cbc9-951d-4365-ad9b-7de83821263f.mp4
+
+
 
   ## Table of Contents
   - [Description](#description)
